@@ -1,0 +1,212 @@
+/* Content Positioning */
+body{
+	background: #56493F;
+	margin: 0;
+	padding: 0;
+	/* text-align: center; */
+	width: 985px;
+	margin: auto;
+}
+#switcher{
+	width: 975px;
+	height: 25px;	
+	font-size: 1em;
+}
+#switcher  p{
+	font-family: ariel;
+	color: #fff;
+}
+#greeting{
+	display: inline;
+	margin: 0;
+	float: right;
+	color: #fff;
+}
+#wrapper{
+	width: 975px;
+	margin: 15px auto;
+	color: #FFF;
+	background-color: #fff;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* Home div on the top left of the page */
+#home_bar{
+	float: left;
+	width: 100px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #A62E5A;
+	margin: 15px 15px;
+}
+/* menu bars at the top right of the page */
+.menu_bars {
+	height: 2em;
+	float:right;
+	width: 150px;
+	margin: 0 auto;
+	background-color: #A62E5A;
+	margin-right: 15px;
+	margin-top:25px;
+}
+.menu_bars a {
+	float: left;
+	padding: 5px 20px 0 40px;
+}
+/* Header Banner - full width */
+#header {
+	float: left;
+	background-color: Red;
+	height: 250px;
+	width: 98%;
+	margin-bottom: 20px;
+	margin-left: 1%;
+}
+/* Sidebar sits on the top left above the mid section divs */
+#page_title {
+	background-color: green;
+	width: 225px;
+	height: 35px;
+	margin-bottom: 15px;
+	clear: both;
+}
+#page_title p {
+	padding-left: 10px;
+	margin-top: 5px;
+	color: #fff;
+	float: left;
+	font-size: 1.25em;
+}
+/* Optional div for product banners */
+.advert{
+	position:relative;
+	float: right;
+	width: 100px;
+	height: 100px;
+	background-color: purple;
+}
+/* Main content of the home page broken into 9 sections (3 per row)*/
+.main_section{
+	float: left;
+	width: auto;
+}
+/* Wide - Left most section */
+.section_left {
+	float: left;
+	background-color: blue;
+	width: 470px;
+	height: 200px;
+	margin-right: 5px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.main_section p {
+	text-align: left;
+	padding-left: 10px;
+	
+}
+/* Sections middle and right*/
+.section {
+	float: left;
+	background-color: blue;
+	width: 230px;
+	height: 200px;
+	margin-left:10px
+}
+/* Product page sections */
+.lftSection_prod{
+	float: left;
+	background-color: blue;
+	width: 460px;
+	height: 250px;
+	margin-left: 10px;
+	margin-bottom: 25px;
+}
+.rgtSection_prod{
+	float: right;
+	background-color: blue;
+	width: 450px;
+	height: 250px;
+	margin-left: 43px;
+	margin-bottom: 25px;
+}
+#formSectionRgt{
+	float: right;
+	width: 460px;
+	margin-right: 10px;
+}
+#formSectionLft{
+	float: left;
+	width: 480px;
+	margin-left: 10px;
+}
+#formSection{
+	float: left;
+	clear: both;
+	background-color: blue;
+	width: 480px;
+	height: auto;
+	margin-bottom: 25px;
+	padding-bottom: 15px
+}
+#footer {
+	clear: both;
+	float: left;
+	background-color: yellow;
+	height: auto;
+	width: 100%;
+}
+#footer p{
+	color: black;
+	width: 250px;
+	font-size: .75em;
+}
+/* Form Styles*/
+#form {
+	float: left;
+	padding: 1em .3em;
+}
+fieldset {
+	margin-top: 1.5em;
+	margin-left: .5em;
+	margin-right: .5em;
+	padding: 0px;
+}
+legend {
+	margin-left: 1em;
+	color: #fff;
+	font-weight: normal;
+}
+fieldset ol {
+	float: left;
+	clear: left;
+	padding: 1em 1em 0 1em;
+	list-style: none;
+}
+fieldset li {
+	float: left;
+	clear: left;
+	padding-bottom: 1em;
+}
+fieldset li span {
+	float: right;
+	padding-top: .25em;
+}
+fieldset.submit {
+	border-style: none;
+}
+label {
+	float: left;
+	width: 10em;
+}
+.field {
+	width: 20em;
+}
+/* Link styles */
+a {
+	text-align: centre;
+	color: #fff;
+}
+clear {
+	clear: both;
+}

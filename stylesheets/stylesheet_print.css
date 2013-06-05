@@ -1,0 +1,34 @@
+
+body {
+	background-color: #FFF;
+	color: #000;
+	font-family: arel, helvetica, sans-serif;
+}
+#wrapper {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#header#toprt#sidebar#formSectionRgt##formSectionLft#formSection {
+	display: none;
+}
+
+.topmid.advert.main_section.section_left.section.lftSection_prod.rgtSection_prod {
+	display: none;
+}
+/*
+.main_section {
+	display: none;
+}
+*/
+#footer {
+	display: none;
+}
+img { 
+	display: none;
+}
+/*
+a:after {
+	content: "["attr(href)"]";
+}
+*/
